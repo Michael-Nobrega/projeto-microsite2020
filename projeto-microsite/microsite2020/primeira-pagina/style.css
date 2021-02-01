@@ -1,0 +1,38 @@
+.bot-container{
+    background-color: hsl(223, 40%, 28%);
+    color: white;
+    height: 6vw;
+    width: 100%;
+}
+    .bot-container-text-left{
+        float: left;
+        color:white;
+        font-weight: bold;
+        font-size: 1.5vw;
+        margin-left: 20px;
+        margin-top: 2vw;
+    }
+    .bot-container-text-right{
+        float: right;
+        color:white;
+        font-weight: bold;
+        font-size: 1vw;
+        margin-right: 20px;
+        margin-top: 2.5vw;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
+      a:active {
+        color: white;
+        text-decoration: none;
+      }

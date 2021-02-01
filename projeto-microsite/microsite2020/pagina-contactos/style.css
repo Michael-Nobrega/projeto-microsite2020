@@ -1,0 +1,91 @@
+/* body{ */
+    /* background-image: linear-gradient(to right, rgb(69, 62, 154) , rgb(95, 134, 242)); */
+/* } */
+.background{
+    background: url(images/pattern-bg.png);
+    background-size: cover;
+    height: 200px;
+}
+.background-map{
+    background: url(images/mapa.png);
+    background-size: cover;
+    height: 700px;
+    max-width: 1904px;
+}
+
+.white-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    height: 30px;
+}
+.rectangle{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -80px;
+    width: 1904px;
+    z-index: 100;
+}
+.box{
+    border: 5px outset transparent;
+    background-color: white; 
+    width: 200px;
+}
+.small-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    opacity: 70%;
+}
+.text{
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+}
+.bot-container{
+    background-color: hsl(223, 40%, 28%);
+    color: white;
+    height: 6vw;
+    width: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+    .bot-container-text-left{
+        float: left;
+        color:white;
+        font-weight: bold;
+        font-size: 1.5vw;
+        margin-left: 20px;
+        margin-top: 2vw;
+    }
+    .bot-container-text-right{
+        float: right;
+        color:white;
+        font-weight: bold;
+        font-size: 1vw;
+        margin-right: 20px;
+        margin-top: 2.5vw;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
+      a:active {
+        color: white;
+        text-decoration: none;
+      }
