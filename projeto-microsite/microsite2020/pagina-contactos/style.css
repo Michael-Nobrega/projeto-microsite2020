@@ -55,23 +55,15 @@ input {
     color: white;
     height: 6vw;
     width: 100%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-  }
-    .bot-container-text-left{
+    padding-left: 25vw;
+}
+    .bot-container-text{
         float: left;
         color:white;
         font-weight: bold;
         font-size: 1.5vw;
-        margin-left: 20px;
+        margin-left: 1vw;
         margin-top: 2vw;
-    }
-    .bot-container-text-right{
-        float: right;
-        color:white;
-        font-weight: bold;
-        font-size: 1vw;
-        margin-right: 20px;
-        margin-top: 2.5vw;
     }
     a:link {
         color: white;
